@@ -1,0 +1,8 @@
+if i > 0 {
+  System.out.println("i is positive"); /// WRONG EXAMPLE
+   
+   
+   if (i > 0) {
+  System.out.println("i is positive"); //CORRECT EXAMPLE
+}
+
