@@ -9,17 +9,6 @@ public class StudentMasterFile {
 		  Andy.age = 20;
 		  Andy.scholarship = true;
 		  Andy.level = "Senior";
-		  Andy.Gender = 'M';
-		  Andy.introduce();
-		   
-		// Introducing another object another student in this case
-		  Student Rose = new Student();
-		  Rose.name = "Rose Gomez";
-		  Rose.introduce();
-		  
-		  
-		  Student Abe = new Student();
-		  Abe.introduce();
-		  
+		  Andy.introduce();  
 		}
 	 }
