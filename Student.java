@@ -1,14 +1,9 @@
-package WeekNine;
-
-//our student class has 6 properties
-
 public class Student {
 	public String name ; 
 	public int studentID = 0 ;
 	public int age = 0;
 	public boolean scholarship = false;
 	public String level = "undefined";
-	public char Gender;
 	 
 	//create a method is not going to take any valuer or return any and access the properties of this class	
 	public void introduce()
@@ -18,7 +13,6 @@ public class Student {
 	  System.out.println("my age is "+ age);
 	  System.out.println("scholarship? "+ scholarship);
 	  System.out.println("Level? "+ level);
-	  System.out.println("Gender? "+ Gender);
 	  System.out.println();
 	 }
 	 
