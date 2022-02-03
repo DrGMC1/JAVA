@@ -1,14 +1,24 @@
-// This program demonstrates the char data type.
+/**
+ * 
+ */
+package WeekTwo;
 
-public class Letters
-{
-   public static void main(String[] args)
-   {
-      char letter;
-
-      letter = 'A';
-      System.out.println(letter);
-      letter = 'B';
-      System.out.println(letter);
-   }
+/**
+ * @author DrMunoz
+ *
+ */
+public class Letters {
+	 public static void main(String[] args)
+	   {
+	      char letterOne, lettterDos;
+	      
+	      letterOne = 'A';
+	      
+	      System.out.println(letterOne);
+	      
+	      lettterDos = 'B';
+	      
+	      System.out.println(lettterDos);
+	      
+	   }	
 }

@@ -1,3 +1,5 @@
+package WeekTwo;
+
 import javax.swing.JOptionPane;
 
 /**

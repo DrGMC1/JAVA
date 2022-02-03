@@ -1,4 +1,5 @@
-import java.util.Scanner;  // Needed for the Scanner class
+package WeekTwo;
+import java.util.Scanner;  // Needed for the Scanner class, need to import this one
 
 /**
    This program demonstrates the Scanner class.
@@ -8,12 +9,12 @@ public class Payroll
 {
    public static void main(String[] args)
    {
-      String name;         // To hold a name
+      String name;         // To hold a name. Define Variables
       int hours;           // Hours worked
       double payRate;      // Hourly pay rate
       double grossPay;     // Gross pay
       
-      // Create a Scanner object to read input.
+      // Create a Scanner object to read input. Construct Scanner Class Object
       Scanner keyboard = new Scanner(System.in);
       
       // Get the user's name.
