@@ -8,9 +8,8 @@ public class NeverEndsWhile {
 	while(x > 0)
 	{
 	System.out.println("x is greater than 0");
-	//x--;
+	x--;
 	}
 
 	}
-
 }
